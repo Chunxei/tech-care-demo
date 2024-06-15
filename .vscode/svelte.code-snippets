@@ -1,0 +1,20 @@
+{
+  "Svelte TypeScript Tag": {
+    "prefix": "ts",
+    "scope": "svelte",
+    "description": "Scaffold a Svelte TypeScript tag",
+    "body": ["<script lang=\"ts\">", "$0", "</script>"],
+  },
+  "Svelte TypeScript Module Tag": {
+    "prefix": ["ts.mod", "mod"],
+    "scope": "svelte",
+    "description": "Scaffold a Svelte TypeScript module tag",
+    "body": ["<script lang=\"ts\" context=\"module\">", "$0", "</script>"],
+  },
+  "Svelte Styles Tag": {
+    "prefix": ["style", "scss"],
+    "scope": "svelte",
+    "description": "Scaffold a Svelte style tag",
+    "body": ["<style lang=\"scss\">", "$0", "</style>"],
+  },
+}
