@@ -2,4 +2,4 @@
 
 ![Tech.Care Demo screenshot](/static/demo.png)
 
-Built as part of an assessment i didn't see through. I was fascinated by the challenge.
+Built as part of an assessment I chose not to see through. Still finished it because I enjoyed the challenge.
