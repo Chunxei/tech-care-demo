@@ -24,13 +24,12 @@ const graphRanges = [
 ];
 
 let graphSampleSize = graphRanges[0].value;
-let prevSampleSize = graphSampleSize;
 
 $: if (chart) updateChartData(diagnosisHistory, graphSampleSize);
 
 function updateChartData(history: DiagnosisHistory[], sampleSize: number) {
-	if (!chart || sampleSize === prevSampleSize) return;
-	prevSampleSize = graphSampleSize;
+	console.log('updating:', diagnosisHistory);
+	if (!chart) return;
 	const diastolicData = getBPChartData('diastolic', history, -sampleSize);
 	const systolicData = getBPChartData('systolic', history, -sampleSize);
 	chart.data.datasets[0].data = systolicData;
